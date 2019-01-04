@@ -25,7 +25,7 @@ MongoClient.connect('mongodb://localhost:27017/TodoApp', {useNewUrlParser: true}
         _id: new ObjectID('5c266f44eab5c45efcdaec1a')
     }, {
         $set: {
-            name: 'Kami Rasmussen'
+            name: 'Teena Rasmussen'
         },
         $inc: {
             age: 1
